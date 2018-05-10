@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    {% if page.featured-img %} 
+    <div class="featured-banner" style="background-image: url('{{ page.featured-img | prepend:site.baseurl}}');">
+        {% if page.featured-header %}
+        <h1 class="featured-header">{{ page.featured-header | escape }}</h1>
+        {% endif %}
+        {% if page.featured-subheader %}
+        <h2 class="featured-subheader">{{ page.featured-subheader | escape }}</h2>
+        {% endif %}
+    </div>
+    {% endif %}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
