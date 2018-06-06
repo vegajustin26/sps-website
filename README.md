@@ -2,9 +2,9 @@
 
 Website designed for the Northeastern SPS using Jekyll. In order to build the website, you need to install [jekyll](https://jekyllrb.com) on your machine (`gem install bundler jekyll`). 
 
-Clone this repo, and then run `bundle exec jekyll server` to preview the 
+Clone this repo, run `bundle install`, and then run `bundle exec jekyll server` to preview the 
 website at http://localhost:4444 (or possibly 
-https://localhost:4444/sps/new). 
+https://localhost:4444/sps/).
 
 The primary contents of the website can be found in the root directory (ex. index.md, org.md, res-gre.md, ...) as Markdown files. New pages (either HTML (.html) or Markdown (.md)) can be added in the root directory of the jekyll website and they will be added to the navigation automatically. 
 
