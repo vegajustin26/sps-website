@@ -1,17 +1,17 @@
 ---
-layout: page
-title: Who We Are
+layout: gallery
+title: Meet our E-Board!
 permalink: /org/
 ---
 
-President: Thedita Pedersen
+<p class="president">President: Thedita Pedersen</p>
 
-Vice President: Jameson O’Reilly
+<p>Vice President: Jameson O’Reilly</p>
 
-Secretary: Nabeel Sherazi
+<p>Secretary: Nabeel Sherazi</p>
 
-Treasurer: Sydney Couval
+<p>Treasurer: Sydney Couval</p>
 
-Mentorship Chair: Rose Silver
+<p>Mentorship Chair: Rose Silver</p>
 
-Webmaster: Joshua Towner
+<p>Webmaster: Joshua Towner</p>
