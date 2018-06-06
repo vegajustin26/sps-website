@@ -6,7 +6,7 @@ permalink: /org/
 
 President: Thedita Pedersen
 
-Vide President: Jameson O’Reilly
+Vice President: Jameson O’Reilly
 
 Secretary: Nabeel Sherazi
 

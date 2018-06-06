@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Society of Physics Students - Northeastern University
-baseurl: "/sps/new" # the subpath of your site, e.g. /blog
+baseurl: "/sps" # the subpath of your site, e.g. /blog
 url: "https://web.northeastern.edu" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
