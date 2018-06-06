@@ -1,3 +1,27 @@
-_site
-.sass-cache
-.jekyll-metadata
+# -----------------------------------------------------------------
+# Gitignore -- SPS Website
+# -----------------------------------------------------------------
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# Ignore Jekyll build directory
+/_site
+
+# Ignore Gemfile.lock (can cause dependency errors if project gets more complicated
+# since it takes precendence over Gemfile, but is generate on bundler run)
+Gemfile.lock
+
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+ 
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+
