@@ -2,6 +2,7 @@
 layout: page
 title: Physics GRE Resources
 permalink: /gre/
+tags: resources
 ---
 
 The Physics GRE The mother of all undergraduate physics tests, the Physics GRE is a mammoth of a beast to conquer. We here at Northeastern SPS thought we would give you a little help sharpening your skills, so that you too, can be a mammoth slayer.

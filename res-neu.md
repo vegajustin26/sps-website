@@ -2,6 +2,7 @@
 layout: page
 title: NEU Physics Resources
 permalink: /neu/
+tags: resources
 ---
 
 [Course Offerings](http://catalog.northeastern.edu/undergraduate/science/physics/physics-bs/#planofstudytext)
