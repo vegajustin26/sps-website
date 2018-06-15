@@ -1,8 +1,9 @@
 ---
 ---
-// DO NOT TOUCH THE ABOVE IDK WHAT IT DOES BUT THINGS BREAK IF ITS NOT THERE
+// The above is Jekyll front matter and **must be there** for Jekyll to see this file!!
 
-@import "{{ site.theme }}";
+// @import "{{ site.theme }}";
+
 
 .site-header > .wrapper {
     text-align: center;
@@ -32,6 +33,11 @@
     font-size: 50px;
 }
 
-.center {
-    text-align: center;
+a {
+    color: darkslategray;
+    transition: .5s;
+}
+
+article, main {
+    margin-top: 35px;
 }
