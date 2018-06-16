@@ -1,0 +1,43 @@
+---
+---
+// The above is YAML front matter and **must be there** for Jekyll to see this file!!
+
+// @import "{{ site.theme }}";
+
+
+.site-header > .wrapper {
+    text-align: center;
+}
+
+.site-title, .site-nav {
+    float: none;
+} 
+
+.featured-banner {
+    height: 300px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}  
+
+.featured-header, .featured-subheader {
+    color: white;
+    margin: 0;
+}
+
+.featured-header {
+    font-size: 50px;
+}
+
+a {
+    color: darkslategray;
+    transition: .5s;
+}
+
+article, main {
+    margin-top: 35px;
+}
