@@ -22,3 +22,4 @@ tags: resources
 | PHYS 3603     | Electromagnetic Waves and Optics          | Fall (even years) & Spring (odd years)    |
 | PHYS 5115     | Quantum Mechanics                         | Fall & Spring                             |
 | PHYS 5318     | Principles of Experimental Physics        | Spring                                    |
+{:.table .table-striped}
