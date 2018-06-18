@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Society of Physics Students
 subtitle: at Northeastern University
-baseurl: "/sps" # the subpath of your site, e.g. /blog
+baseurl: "/sps/" # the subpath of your site, e.g. /blog
 url: "https://web.northeastern.edu" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: northeasternsps
 facebook_username: northeasternsps
