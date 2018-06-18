@@ -1,0 +1,35 @@
+- position: President
+  name: Thedita Pedersen
+  email: pedersen.t@husky.neu.edu
+  bio: Lorem Ipsum
+  photo: thedita.jpg
+
+- position: Vice President
+  name: Jameson O'Reilly
+  email: oreilly.j@husky.neu.edu
+  bio: Lorem Ipsum
+  photo: jameson.jpg
+
+- position: Secretary
+  name: Nabeel Sherazi
+  email: sherazi.n@husky.neu.edu
+  bio: Lorem Ipsum
+  photo: nabeel.jpg
+
+- position: Treasurer
+  name: Sydney Couval
+  email: couval.s@husky.neu.edu
+  bio: Lorem Ipsum
+  photo: sydney.jpg
+
+- position: Mentorship Chair
+  name: Rose Silver
+  email: silver.r@husky.neu.edu
+  bio: Lorem Ipsum
+  photo: rose.jpg
+
+- position: Webmaster
+  name: Joshua Towner
+  email: towner.j@husky.neu.edu
+  bio: Lorem Ipsum
+  photo: joshua.jpg
