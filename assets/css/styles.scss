@@ -41,3 +41,24 @@ a {
 article, main {
     margin-top: 35px;
 }
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0 10px 6px -6px #777;
+    transition: 0.5s;
+
+    :hover {
+        color: darkslategray;
+    }
+
+    *:hover {
+        box-shadow: unset !important;
+    }
+}
+
+.profile {
+    width: 100%;
+    height: auto;
+    max-width:150px;
+    max-height:150px;
+}
