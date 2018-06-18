@@ -1,17 +1,9 @@
 ---
-layout: gallery
+layout: directory
 title: Meet our E-Board!
 permalink: /org/
 ---
 
-<p class="president">President: Thedita Pedersen</p>
+# Executive Board
 
-<p>Vice President: Jameson O’Reilly</p>
-
-<p>Secretary: Nabeel Sherazi</p>
-
-<p>Treasurer: Sydney Couval</p>
-
-<p>Mentorship Chair: Rose Silver</p>
-
-<p>Webmaster: Joshua Towner</p>
+Get to know the SPS 2018-2019 E-board below!
