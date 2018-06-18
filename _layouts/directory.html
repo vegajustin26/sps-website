@@ -7,21 +7,27 @@
 
     {%- include header.html -%}
 
-    <main class="page-content container" aria-label="Content">
+    <main class="page-content container" style="margin-top:55px;" aria-label="Content">
+      <!-- Ideally we should figure out a way to make top margin consistent so we don't have to do
+      inline styles, but that's a battle for another day -->
       <div class="row">
-        <div class="col-sm-8 offset-sm-2">
+        <div class="col-sm-8 offset-sm-2 text-center">
           {{ content }}
         </div>
       </div>
-      <div class="row">
+      <div class="row" style="display:flex; justify-content: space-around;">
           {%- for role in site.data.eboard -%}
-            <div class="col-sm-4 px-3">
-              <img class="img-fluid" src="{{ assets/img/{{ role.photo }}" | escape | prepend:site.baseurl }} />
-              <h4 class="text-center">{{ role.position | titlecase | escape }}, {{ role.name | titlecase | escape }}</h4>
-              <p>{{ role.bio | escape }}</p>
+            <div class="col-lg-3 px-3 m-3 card">
+              <img class="img-fluid rounded-circle profile my-5 mx-auto"
+                src="{{ 'assets/img/' | prepend: site.baseurl | append: role.photo }}" 
+                alt="{{ role.name }}"/>
+              <h5 class="text-center">{{ role.name | escape }}</h5>
+              <h4 class="lead text-center">{{ role.position | titlecase | escape }}</h4>
+              <p class=" text-justify px-3">{{ role.bio | escape }}</p>
+              <hr />
+              <span class="text-center mb-3"><a href="mailto:{{ role.email }}"><i class="fas fa-envelope"></i> : {{ role.email }}</a></span>
             </div>
-          {%- endfor -$}
-        </div>
+          {%- endfor -%}
       </div>
     </main>
 
