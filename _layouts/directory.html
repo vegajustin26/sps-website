@@ -7,7 +7,7 @@
 
     {%- include header.html -%}
 
-    <main class="page-content container" style="margin-top:55px;" aria-label="Content">
+    <main class="page-content container" aria-label="Content">
       <!-- Ideally we should figure out a way to make top margin consistent so we don't have to do
       inline styles, but that's a battle for another day -->
       <div class="row">
@@ -23,7 +23,7 @@
                 alt="{{ role.name }}"/>
               <h5 class="text-center">{{ role.name | escape }}</h5>
               <h4 class="lead text-center">{{ role.position | titlecase | escape }}</h4>
-              <p class=" text-justify px-3">{{ role.bio | escape }}</p>
+              <p class="text-justify px-3">{{ role.bio | escape }}</p>
               <hr />
               <span class="text-center mb-3"><a href="mailto:{{ role.email }}"><i class="fas fa-envelope"></i> : {{ role.email }}</a></span>
             </div>

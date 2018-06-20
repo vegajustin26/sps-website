@@ -8,7 +8,7 @@
     {%- include header.html -%}
 
     {%- if page.featured-img -%} 
-    <div class="featured-banner" style="background-image: url('{{ page.featured-img | prepend:site.baseurl}}');">
+    <div class="featured-banner" style="background-image: url('{{ page.featured-img | prepend:site.baseurl}}'); margin-top: 2em;">
         {%- if page.featured-header -%}
         <h1 class="featured-header">{{ page.featured-header | escape }}</h1>
         {%- endif -%}
@@ -17,12 +17,14 @@
         {%- endif -%}
     </div>
     {%- endif -%}
-    <main class="page-content" aria-label="Content">
+
+    <main class="page-content container" aria-label="Content">
       <div class="row">
         <div class="col-sm-8 offset-sm-2">
           {{ content }}
         </div>
       </div>
+
     </main>
 
     {%- include footer.html -%}
