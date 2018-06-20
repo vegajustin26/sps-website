@@ -23,12 +23,19 @@ instagram_username: northeasternsps
 
 # Build settings
 markdown: kramdown
-theme: minima
+sass:
+    sass_dir: _sass
+    style: compressed
+    filename: styles.min.css
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap # Complies with Google SEO
 
 # Exclude from processing.
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - travis.yml
   - [vendor] # TravisCI creates this folder on its servers when building
 
