@@ -1,0 +1,19 @@
+.featured-banner {
+    height: 300px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}  
+
+.featured-header, .featured-subheader {
+    color: white;
+    margin: 0;
+}
+
+.featured-header {
+    font-size: 50px;
+}

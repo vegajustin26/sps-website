@@ -1,0 +1,20 @@
+  @mixin heading-font {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500 !important;
+}
+
+@mixin body-font {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+@mixin lead-font {
+  @include body-font;
+  font-weight: 300 !important;
+}
+
+@mixin transition($prop, $secs) {
+  -webkit-transition: $prop $secs ease-out;
+  -moz-transition: $prop $secs ease-out;
+  -o-transition: $prop $secs ease-out;
+  transition: $prop $secs ease-out;
+}

@@ -1,69 +1,16 @@
 ---
 ---
 // The above is YAML front matter and **must be there** for Jekyll to see this file!!
+// Sass partials are to be placed in the _sass directory to compile properly.
 
-// @import "{{ site.theme }}";
+// Core variables and mixins
+@import "variables";
+@import "mixins";
 
+// Global CSS
+@import "global";
 
-.site-header > .wrapper {
-    text-align: center;
-}
-
-.site-title, .site-nav {
-    float: none;
-} 
-
-.featured-banner {
-    height: 300px;
-    text-align: center;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-size: cover;
-    background-position: center;
-}  
-
-.featured-header, .featured-subheader {
-    color: white;
-    margin: 0;
-}
-
-.featured-header {
-    font-size: 50px;
-}
-
-a {
-    color: darkslategray;
-    transition: .5s;
-}
-
-article, main {
-    margin-top: 35px;
-}
-
-.card {
-    border-radius: 2px;
-    //box-shadow: 0 10px 6px -6px #777;
-    //transition: 0.5s;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    border: none;
-
-}
-
-.card:hover {
-    // color: darkslategray;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-.profile {
-    width: 100%;
-    height: auto;
-    max-width:150px;
-    max-height:150px;
-}
-
-.nav-item {
-    cursor: pointer;
-}
+// Components
+@import "navbar";
+@import "featured-header";
+@import "cards"

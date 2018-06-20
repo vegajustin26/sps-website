@@ -1,0 +1,13 @@
+.nav-item {
+  cursor: pointer;
+}
+
+// .navbar-shrink {
+//     @extend .navbar-custom;
+//     padding-top: .5rem;
+//     padding-bottom: .5rem;
+//     @include transition(padding-top, .3s);
+//     @include transition(padding-bottom, .3s);
+//   }
+// This class would potentially be used for a shrinking navbar script
+// Not even sure that we'll implement that but we'll keep it around for now
