@@ -1,0 +1,11 @@
+- name: College of Science Advising
+  location: 206 MU
+  blurb: To meet with your academic or co-op advisors, you'll head here. The home of Nathan Richardson and Lisa Campagnoni.
+
+- name: Egan Conference Room
+  location: 206 EG
+  blurb: SPS meetings are held here! Come hang out, have pizza, do fun activities, and meet your fellow physics students at Northeastern.
+
+- name: Undergraduate Physics Lounge
+  location: 120 DA
+  blurb: "Great spot to read, do homework, solve problems, or just chat. This space is for you. To get it, just tap your NUID on the lock (note: you must be a declared physics major to access this room. If your card doesn't work for some reason, head down the hall and talk to Erica)"
