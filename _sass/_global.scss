@@ -16,16 +16,28 @@ h6 {
 }
 
 a {
-  color: darkslategray;
+  color: $primary;
   transition: .5s;
 }
 
 * + .container {
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 header + .container {
-  margin-top: 4em;
+  margin-top: 4rem;
+}
+
+main article {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 // .btn-xl {
