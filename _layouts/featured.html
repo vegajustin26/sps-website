@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<!-- Note: though it pains me, the featured page cannot use layout:default because of
+     the full width image (default wraps everything in a padded container -->
 
   {%- include head.html -%}
 
@@ -8,7 +10,7 @@
     {%- include header.html -%}
 
     {%- if page.featured-img -%} 
-    <div class="featured-banner" style="background-image: url('{{ page.featured-img | prepend:site.baseurl}}'); margin-top: 2em;">
+    <div class="featured-banner" style="background-image: url('{{ page.featured-img | prepend:site.baseurl}}');">
         {%- if page.featured-header -%}
         <h1 class="featured-header">{{ page.featured-header | escape }}</h1>
         {%- endif -%}
