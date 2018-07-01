@@ -1,13 +1,18 @@
 # sps-website
 
-Website designed for the Northeastern SPS using Jekyll. In order to build the website, you need to install [jekyll](https://jekyllrb.com) on your machine (`gem install bundler jekyll`). 
+Website designed for the Northeastern SPS using Jekyll.
 
 ## Build Instructions
+
+First, you will need to be in an environment with [Ruby](https://ruby-lang.org) available, which will also give you `gem`, its default package manager. For the auto-prefixer plugin we use with Jekyll, you will also need to have [NodeJS](https://nodejs.org) available, although you can eliminate this dependency by not using autoprefixer (comment out the line containting `gem "jekyll-autoprefixer"` in Gemfile and `jekyll-autoprefixer` in _config.yml).
+
+In order to build the website, you need to install [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io) on your machine (`gem install bundler jekyll`).
+
 Clone this repo, run `bundle install`, and then run `bundle exec jekyll server` to preview the 
 website at http://localhost:4444 (or possibly 
 https://localhost:4444/sps/). 
 
-In order to generate a full HTML website from these files, run `jekyll build`. This generates HTML and CSS to be published onto a web server in the _site directory. The contents of this folder can be copied onto the SPS web server for deployment.
+In order to generate a full HTML website from these files, run `jekyll build`. This generates HTML and CSS to be published onto a web server in the _site directory. When building for final deployment, run `jekyll build JEKYLL_ENV='production'` to build for a production environment. This will add a few extra things to the generated code which we would only want in final production (Google Analytics, CSS autoprefixing, etc.). The contents of the _site directory can now be copied onto the SPS web server for deployment.
 
 ## About
 
