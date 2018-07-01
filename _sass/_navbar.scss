@@ -4,21 +4,28 @@
 
 .navbar  {
   background-color: $primary;
-  transition: all 0.8s cubic-bezier(.25,.8,.25,1);
+  @include cubic-transition(all, 0.8);
+}
+
+.navbar-text {
+  position: relative;
+  opacity: 1;
+  max-height: 200px;
+  @include cubic-transition(max-height, 0.8);
 }
 
 .navbar-brand {
   @include heading-font;
-  transition: all 2s cubic-bezier(.25,.8,.25,1);
+  position: relative;
 }
 
-.navbar-full {
+nav[nav-type="expanded"] {
   // padding-top: 1rem;
   // padding-bottom: 1rem;
   height: 130px;
 }
 
-.navbar-shrink {
+nav[nav-type="mini"] {
   // padding-top: .5rem;
   // padding-bottom: .5rem;
   height: 80px;
