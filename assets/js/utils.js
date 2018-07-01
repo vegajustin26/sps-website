@@ -1,20 +1,18 @@
 $(window).scroll(function() {
 
-    if ( $(window).scrollTop() > $("nav").height() ) {
-        console.log("shrinking");
-        $(".navbar-text").fadeOut(200, function() {
+    var nav = $("nav"); // Cache as variable
+
+    if ( $(window).scrollTop() > 0 && nav.attr("nav-type") == "expanded" ) {
+        // $(".navbar-text").fadeOut(500);
+        $(".navbar-text").fadeTo("slow", 0, function() {
             $(this).addClass("hide");
         });
-        window.setTimeout( function() {$("nav").removeClass("navbar-full").addClass("navbar-shrink")}, 1000 );
-    } // setTimeout needs to be handed a function handle to execute
-
-    else {
-        console.log("growing");
-        $("nav").removeClass("navbar-shrink").addClass("navbar-full");
-        
-        window.setTimeout( function() {$(".navbar-text").fadeIn(200, function() {
-            $(this).removeClass("hide");
-        })}, 1000);
+        nav.attr("nav-type", "mini");
     }
 
-});
+    else if ( $(window).scrollTop() == 0 && nav.attr("nav-type") == "mini" ) {
+        nav.attr("nav-type", "expanded");
+        // $(".navbar-text").fadeIn(500);
+        $(".navbar-text").removeClass("hide").fadeTo("slow", 1);
+    }
+})
