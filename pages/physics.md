@@ -11,7 +11,7 @@ tags: resources
 
 While we can't tell you whether or not you should be a physics major, here are some good indicators that physics is right for you:
 
-* You have a deep interest in how the universe works, and a pressing curiosity to the solutions of modern problems physics.
+* You have a deep interest in how the universe works, and a pressing curiosity to find solutions to modern problems in physics.
 
 * You like solving puzzles, and wouldn't mind thinking about a complicated question for years on end. You like being challenged, and don't give up on things easily (Prof. Kriokov will tell you PHYS 2305, Thermodynamics & Statistical Mechanics, is the single most difficult undergraduate class offered at Northeastern)
 
@@ -26,6 +26,8 @@ On the other hand, here are some good reasons *not* to be a physics major:
 * Because you came to Northeastern wanting to do physics, and now you think you have to do it - it couldn't be further from the truth! Your first year at the University should be all about exploring: taking new classes, new subjects that you don't know anything about, talking to people you'd never ordinarily talk to. The frank reality is that all of us come to Northeastern not having any idea what we really like, or where our life is going to go, but each time you expose yourself to something new, you gain a new data point about whether you do or don't like that thing. So gather as much data as you can before you make a decision! You wouldn't want to base the next four years of your life off `n=1` data, would you?
 
 Still unsure? Attend an SPS event and get to know what the major is all about. Or even better, talk to a current physics undergrad, and get to know why they chose their major! More than likely, that will give you the information you need to decide.
+
+*How do I get a 
 
 ## People and Places to Know
 [//]: # (Note for editors: the following is auto-generated from faculty.yml and places.yml)
