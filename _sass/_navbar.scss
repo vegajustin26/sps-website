@@ -2,12 +2,24 @@
   cursor: pointer;
 }
 
-// .navbar-shrink {
-//     @extend .navbar-custom;
-//     padding-top: .5rem;
-//     padding-bottom: .5rem;
-//     @include transition(padding-top, .3s);
-//     @include transition(padding-bottom, .3s);
-//   }
-// This class would potentially be used for a shrinking navbar script
-// Not even sure that we'll implement that but we'll keep it around for now
+.navbar  {
+  background-color: $primary;
+  transition: all 0.8s cubic-bezier(.25,.8,.25,1);
+}
+
+.navbar-brand {
+  @include heading-font;
+  transition: all 2s cubic-bezier(.25,.8,.25,1);
+}
+
+.navbar-full {
+  // padding-top: 1rem;
+  // padding-bottom: 1rem;
+  height: 130px;
+}
+
+.navbar-shrink {
+  // padding-top: .5rem;
+  // padding-bottom: .5rem;
+  height: 80px;
+}
