@@ -18,10 +18,10 @@ font-weight: 700 !important;
   font-weight: 300 !important;
 }
 
-@mixin linear-transition($prop, $secs) {
+@mixin ease-out($prop, $secs) {
   transition: $prop $secs ease-out;
 }
 
-@mixin cubic-transition($prop){
-  transition: $prop 0.3s cubic-bezier(.25,.8,.25,1);
+@mixin cubic-transition($prop, $secs){
+  transition: $prop $secs cubic-bezier(.25,.8,.25,1);
 }
