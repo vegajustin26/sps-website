@@ -18,3 +18,7 @@ layout: default
       </article>
   </div>
 </div>
+
+{%- if page.script -%}
+<script src="{{ page.script | relative_url }}"></script>
+{%- endif -%}
