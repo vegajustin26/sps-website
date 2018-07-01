@@ -34,7 +34,7 @@ plugins:
   - jekyll-sitemap # Complies with Google SEO
   - jekyll-autoprefixer
 autoprefixer:
-  only-production: true
+    only-production: true
 
 # Exclude from processing (note that dotfiles are excluded by default).
 exclude:
