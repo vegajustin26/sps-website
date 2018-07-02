@@ -27,7 +27,11 @@ On the other hand, here are some good reasons *not* to be a physics major:
 
 Still unsure? Attend an SPS event and get to know what the major is all about. Or even better, talk to a current physics undergrad, and get to know why they chose their major! More than likely, that will give you the information you need to decide.
 
-*How do I get a 
+*How do I get a lab position with a professor?*
+
+First of all, don't stress if you're reading this as not-a-freshman-anymore, and worrying that it's too late for you to work in a lab on campus. There are plenty of people that take on their first undergraduate positions in their sophomore, middler, and even junior years. This doesn't mean that you shouldn't start looking into it as early as possible of course, but hope is not lost.
+
+The first thing about asking a professor to work in their lab is knowing that professors get a *lot* of those emails. Since there are obviously limited spaces, many of these emails get thrown out without a response. However, by putting in just a *little bit of effort* into making your email more thoughtful and poised than the average, you increase your chances of getting that position dramatically.
 
 ## People and Places to Know
 [//]: # (Note for editors: the following is auto-generated from faculty.yml and places.yml)
