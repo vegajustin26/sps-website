@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="row">
-  <div class="col-sm-10 offset-sm-1">
+  <div class="col-md-8 offset-md-2">
     <article class="post">
 
         <header class="post-header">
@@ -18,3 +18,7 @@ layout: default
       </article>
   </div>
 </div>
+
+{%- if page.script -%}
+<script src="{{ page.script | relative_url }}"></script>
+{%- endif -%}

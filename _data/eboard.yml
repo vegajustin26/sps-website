@@ -1,13 +1,13 @@
 - position: President
   name: Thedita Pedersen
   email: pedersen.t@husky.neu.edu
-  bio: 
+  bio: Thedita is a fourth year Physics and Theatre double major working on laser lithography with nanomaterials in Professor Kar's lab. She currently performs in a quantum physics play.
   photo: thedita.jpg
 
 - position: Vice President
   name: Jameson O'Reilly
   email: oreilly.j@husky.neu.edu
-  bio: 
+  bio: Jameson is a fifth-year aspiring AMO physicist and quantum computing researcher who likes writing simulations and popular articles about new breakthroughs in all subfields.
   photo: jameson.jpg
 
 - position: Secretary
@@ -19,17 +19,17 @@
 - position: Treasurer
   name: Sydney Couval
   email: couval.s@husky.neu.edu
-  bio: 
+  bio: As a Physics major, Sydney is pursuing a career in quantum computation, and hopes to work abroad after finishing her undergraduate degree.
   photo: sydney.jpg
 
 - position: Mentorship Chair
   name: Rose Silver
   email: silver.r@husky.neu.edu
-  bio: 
+  bio: Rose is a 2nd year Applied Physics/Math double major beginning her research in a nanophysics lab on campus. Outside of academia, she has a knack for singing and city exploration.
   photo: rose.jpg
 
 - position: Webmaster
   name: Joshua Towner
   email: towner.j@husky.neu.edu
-  bio: 
+  bio: Joshua is a first year CS/Physics and Math major who is interested in learning about artificial intelligence and quantum computing.
   photo: joshua.jpg

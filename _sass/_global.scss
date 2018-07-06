@@ -16,17 +16,36 @@ h6 {
 }
 
 a {
-  color: darkslategray;
-  transition: .5s;
+  color: $primary;
+  transition: color 0.5s ease-in-out;
 }
 
 * + .container {
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 header + .container {
-  margin-top: 4em;
+  // Sets margin from page top to where content begins so nothing is hidden under navbar
+  margin-top: 8rem;
 }
+
+header + .featured-banner {
+  // Sets margin for featured layout specifically
+  margin-top: 6rem;
+}
+
+main article {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
 
 // .btn-xl {
 //   @include heading-font;
