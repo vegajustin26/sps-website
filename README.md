@@ -9,8 +9,7 @@ First, you will need to be in an environment with [Ruby](https://ruby-lang.org) 
 In order to build the website, you need to install [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io) on your machine (`gem install bundler jekyll`).
 
 Clone this repo, run `bundle install`, and then run `bundle exec jekyll server` to preview the 
-website at http://localhost:4444 (or possibly 
-https://localhost:4444/sps/). 
+website at http://localhost:4444/sps/.
 
 In order to generate a full HTML website from these files, run `jekyll build`. This generates HTML and CSS to be published onto a web server in the _site directory. When building for final deployment, run `jekyll build JEKYLL_ENV='production'` to build for a production environment. This will add a few extra things to the generated code which we would only want in final production (Google Analytics, CSS autoprefixing, etc.). The contents of the _site directory can now be copied onto the SPS web server for deployment.
 

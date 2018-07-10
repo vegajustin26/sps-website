@@ -39,7 +39,7 @@ Once you know what approximately what field you want to be in, you can asking ar
 
 Now that you've made a list of professors, it's time to deep dive into their work. Get to know exactly what they study, and do some reading up on their previous works. [Google Scholar](https://scholar.google.com) is a great resource for this. Find their five most recent papers and read the abstracts for each of them. Are the topics of study something you would be interested in studying yourself? Pick one of the papers that you found especially interesting and skim it in its entirety. Note down something that you especially liked, and why you liked it. You're now ready to send your email.
 
-When it comes to writing your email, we suggest something similar to this template from [the University of California, Santa Cruz](https://ugr.ue.ucsc.edu/email_examples) (there are oter great examples available on that site as well):
+When it comes to writing your email, we suggest something similar to this template from [the University of California, Santa Cruz](https://ugr.ue.ucsc.edu/email_examples) (there are other great examples available on that site as well):
 
 <div class="letter">
 Subject:  Meeting to discuss undergraduate research opportunities in <b>topic</b>
