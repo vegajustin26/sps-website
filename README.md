@@ -13,6 +13,10 @@ website at http://localhost:4444/sps/.
 
 In order to generate a full HTML website from these files, run `jekyll build`. This generates HTML and CSS to be published onto a web server in the _site directory. When building for final deployment, run `jekyll build JEKYLL_ENV='production'` to build for a production environment. This will add a few extra things to the generated code which we would only want in final production (Google Analytics, CSS autoprefixing, etc.). The contents of the _site directory can now be copied onto the SPS web server for deployment.
 
+## Deployment
+
+We recommend pushing the final build of the site to server using `rsync` in a bash shell. To do this, open bash in the sps-website directory after building, and first do a dry-run by running `rsync -anv _site/ sps@nuweb50.northeastern.edu:.`. **Note that the trailing colon and period after "edu" is important.** Bash will prompt you to authenticate, and then show you which files will be moved, and where, without actually doing anything. Ensure that this is correct before rerunning the command with the flag `-av` instead to actually push files.
+
 ## About
 
 The site is primarly built on Jekyll, a static site generating framework that uses the Liquid templating engine. Page structure is handled with the Bootstrap grid system, and styling is written in Sass SCSS (which Jekyll processes automatically). Some icons are powered by FontAwesome.
