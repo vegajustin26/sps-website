@@ -40,8 +40,5 @@ autoprefixer:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - travis.yml
-  - [vendor] # TravisCI creates this folder on its servers when building
-  - [old] # Old website we keep in git folder just for memory's sake
 
 port: 4444
