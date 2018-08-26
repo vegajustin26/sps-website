@@ -29,6 +29,7 @@ function scrape_calendar() {
 }
 
 // Try to get cached calendar (will be False if cache doesn't exist)
+// (note that the '@' disables PHP warnings)
 $content = @file_get_contents('cached.html');
 
 if ($content) {
@@ -41,6 +42,8 @@ if ($content) {
     if ((time() - $last_scraped) / 3600 > $HOURS_BEFORE_REFRESH) {
         // Refresh calendar and return
         $content = scrape_calendar();
+        // Update cache
+        file_put_contents('cached.html', $content);
         echo $content;
     } else {
         // Output cached calendar
