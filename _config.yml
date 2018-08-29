@@ -18,9 +18,9 @@ subtitle: at Northeastern University
 baseurl: "/sps/" # the subpath of your site, e.g. /blog
 url: "https://web.northeastern.edu" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: :slug # Default permalink style (uses filename replacing all non alphanumeric characters with hyphens)
-twitter_username: northeasternsps
+twitter_username: spsnortheastern
 facebook_username: northeasternsps
-instagram_username: northeasternsps
+instagram_username: spsnortheastern
 
 # Build settings
 markdown: kramdown
