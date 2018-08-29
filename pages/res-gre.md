@@ -23,7 +23,7 @@ Conquering the Physics GRE is generally believed to be the best book and just ca
 
 A set of free Physics GRE flash cards is available here courtesy of Case Western Reserve University. You will have to email them to gain access.
 
-In just one person’s experience, the flash cards were not very helpful because they did not transfer well to the way you have to know things to answer questions quickly. This will obviously vary between people and you will have to figure it out for yourself. 
+In just one person’s experience, the flash cards were not very helpful because they did not transfer well to the way you have to know things to answer questions quickly. This will obviously vary between people and you will have to figure it out for yourself.
 
 One sample study plan is as follows:
 

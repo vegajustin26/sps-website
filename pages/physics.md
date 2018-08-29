@@ -3,6 +3,7 @@ layout: page
 title: New to the Physics Major?
 permalink: /freshman-faqs/
 tags: resources
+justify: true
 ---
 
 ### Freshman FAQS
