@@ -20,8 +20,10 @@ function scrape_calendar() {
     src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"
     integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9"
     crossorigin="anonymous"></script>
-    <script src="http://localhost:3000/sps/assets/js/calendar.js"></script>
     </head>', $content);
+    // Inject our DOM manipulation JS last in the document, once the calendar has been generated
+    $content = str_replace('</body>', '<script defer src="http://localhost:3000/sps/assets/js/calendar.js"></script>
+    </body>', $content);
     // Add timestamp to scrape
     $content = str_replace('<head>', sprintf('<head>
     <meta scrape-date="%d" />', time()), $content);

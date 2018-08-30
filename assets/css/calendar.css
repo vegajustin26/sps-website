@@ -2,6 +2,8 @@
 
 .view-cap, .view-container-border {
     background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .mv-daynames-table {
@@ -23,5 +25,4 @@
 }
 
 .today-button {
-    
 }
