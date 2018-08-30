@@ -41,4 +41,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+# Include files specifically in processing
+include:
+  - .htaccess
+
 port: 4444
