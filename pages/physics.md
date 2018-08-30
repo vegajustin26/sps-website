@@ -7,7 +7,15 @@ tags: resources
 
 ### Freshman FAQS
 
-*Should I be a physics major?*
+###### What is SPS?
+
+The Society of Physics Students is, in a word, *home* for any and all physics majors at Northeastern. Pure physics? Combined physics? Biomedical or applied physics? Experimentalist, or theorist? This is the organization for you. It's a space for you to relax and unwind, meet your fellow physics friends, and share your triumphs and failures. We meet every Wednesday at 12pm in 206 Egan, and all are welcome to join and revel in our oddly characteristic abundance of pizza.
+
+###### What's the deal with the national organization? Do I need to pay to be a part of SPS?
+
+Our Northeastern chapter of SPS is affiliated with a larger national organization of SPSs at universities all across the world, some of whom we plan to collaborate with throughout the year. The **national organization** SPS is affiliated with the American Institute of Physics, and there are some cool perks to joining that organization as well (you can find out more about it [here]). While joining the national organization does have a yearly due, our local chapter right here at Northeastern **does not**, and you are a member of the society just by being a physics major here (we're pretty loose about that).
+
+###### Should I be a physics major?
 
 While we can't tell you whether or not you should be a physics major, here are some good indicators that physics is right for you:
 
@@ -27,7 +35,7 @@ On the other hand, here are some good reasons *not* to be a physics major:
 
 Still unsure? Attend an SPS event and get to know what the major is all about. Or even better, talk to a current physics undergrad, and get to know why they chose their major! More than likely, that will give you the information you need to decide.
 
-*How do I get a lab position with a professor?*
+###### How do I get a lab position with a professor?
 
 First of all, don't stress if you're reading this as not-a-freshman-anymore, and worrying that it's too late for you to work in a lab on campus. There are plenty of people that take on their first undergraduate positions in their sophomore, middler, and even junior years. This doesn't mean that you shouldn't start looking into it as early as possible of course, but hope is not lost.
 
@@ -62,6 +70,10 @@ Boom, it's out there! Now, all that's left is to wait for a response 😁
 
 It's important to remember that a lot can still happen from here. For one, you will probably not get a response right away. Professors are busy people, and sometimes emails slip by unnoticed for a while. Don't worry if it takes up to a week for them to respond. When you get your response, if they'd like to meet with you, great! Meet them in person and be sure to sell your dedication, interest, and most importantly, time available. If, however, you get an email back saying that the professor doesn't have space for another person in their lab, or that they don't believe it would be a great fit, don't be discouraged. It's not uncommon to have to email at least 5-10 professors before finding someone that's a good match, in your desired field, and open to taking undergraduates. Just begin the process again looking for someone new, and don't give up.
 
+###### Wow, you give great advice!
+
+Thanks! We've been here for a while, so we'd be remiss to not give back and help out our new young friends. Likewise, you should make it a priority to gather advice from your new upperclassmen friends whenever possible, as whatever it is you're struggling with, they almost certainly have struggled with too. SPS is your home, so feel comfortable here in asking questions and reaching out to people. We hope to see you around!
+
 
 ### People and Places to Know
 [//]: # (Note for editors: the following is auto-generated from faculty.yml and places.yml)
@@ -74,7 +86,7 @@ The following people can be great sources of information! Of course, there are m
 
 {% for person in site.data.faculty %}
 * {{ person.name }} - {{ person.title }} - <a href="mailto:{{ person.email }}">{{ person.email }}</a>
-    
+
     {{ person.blurb }}
 
 {% endfor %}
@@ -85,8 +97,7 @@ Here are some places you'll run into a lot.
 
 {% for place in site.data.places %}
 * {{ place.name }} - {{ place.location }}
-    
+
     {{ place.blurb }}
 
 {% endfor %}
-
