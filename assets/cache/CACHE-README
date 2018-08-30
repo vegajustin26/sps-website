@@ -1,0 +1,4 @@
+This file exists only so that the cache folder is preserved in Jekyll build.
+This is necessary because due to a quirk in PHP, file cannot be saved into
+directories that don't exist.
+Do not delete this file unless a workaround has been found for the above problem.

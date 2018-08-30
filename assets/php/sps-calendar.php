@@ -1,3 +1,11 @@
+---
+# Liquid processing to do local testing replacements if needed (this is so meta)
+---
+{%- if jekyll.environment == 'production' -%}
+    {%- assign asset_href = "https://web.northeastern.edu" -%}
+{%- else -%}
+    {%- assign asset_href = "http://localhost:3000" -%}
+{%- endif -%}
 <?php
 // ----- SCRAPE SETTINGS -----
 // Length of time to use cached calendar before refresh.
@@ -10,8 +18,8 @@ function scrape_calendar() {
     // Set base URL so relative references to stylesheets, scripts, etc. are preserved
     $content = str_replace('</title>','</title><base href="https://www.google.com/calendar/" />', $content);
     // Inject our custom stylesheet for the calendar, as well as Bootstrap.
-    $content = str_replace('</head>','<link rel="stylesheet" href="http://localhost:3000/sps/assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="http://localhost:3000/sps/assets/css/calendar.css" />
+    $content = str_replace('</head>','<link rel="stylesheet" href="{{- asset_href -}}/sps/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="{{- asset_href -}}/sps/assets/css/calendar.css" />
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -22,7 +30,7 @@ function scrape_calendar() {
     crossorigin="anonymous"></script>
     </head>', $content);
     // Inject our DOM manipulation JS last in the document, once the calendar has been generated
-    $content = str_replace('</body>', '<script defer src="http://localhost:3000/sps/assets/js/calendar.js"></script>
+    $content = str_replace('</body>', '<script defer src="{{- asset_href -}}/sps/assets/js/calendar.js"></script>
     </body>', $content);
     // Add timestamp to scrape
     $content = str_replace('<head>', sprintf('<head>
@@ -32,7 +40,7 @@ function scrape_calendar() {
 
 // Try to get cached calendar (will be False if cache doesn't exist)
 // (note that the '@' disables PHP warnings)
-$content = @file_get_contents('cached.html');
+$content = @file_get_contents('../cache/sps-calendar.html');
 
 if ($content) {
     // Match meta tag storing scrape time
@@ -45,7 +53,7 @@ if ($content) {
         // Refresh calendar and return
         $content = scrape_calendar();
         // Update cache
-        file_put_contents('cached.html', $content);
+        file_put_contents('../cache/sps-calendar.html', $content);
         echo $content;
     } else {
         // Output cached calendar
@@ -55,7 +63,7 @@ if ($content) {
 } else {
     // Cache doesn't exist
     $content = scrape_calendar();
-    file_put_contents('cached.html', $content);
+    file_put_contents('../cache/sps-calendar.html', $content);
     echo $content;
 }
 ?>
