@@ -1,0 +1,24 @@
+
+<section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+
+	  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		{%- for faq in site.data.faqs -%}
+			<div class="panel panel-default">
+				<div class="panel-heading p-1 mb-1" role="tab" id="heading{{ forloop.index0 }}">
+					<h6 class="panel-title">
+						<a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.index0 }}" aria-expanded="true" aria-controls="collapse0">
+						{{- faq.question -}}
+						<span class="ml-2 fas fa-chevron-circle-down"></span>
+						</a>
+					</h6>
+				</div>
+				<div id="collapse{{ forloop.index0 }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ forloop.index0 }}">
+					<div class="panel-body px-3 mb-1">
+						{{- faq.answer | markdownify -}}
+					</div>
+				</div>
+			</div>
+		{%- endfor -%}
+	</div>
+	
+</section>
