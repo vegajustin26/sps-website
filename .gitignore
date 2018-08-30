@@ -9,6 +9,9 @@
 # Ignore Jekyll build directory
 /_site
 
+# Ignore NPM directory
+/node_modules
+
 # Ignore Gemfile.lock (can cause dependency errors if project gets more complicated
 # since it takes precendence over Gemfile, but is generate on bundler run)
 Gemfile.lock
