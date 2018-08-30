@@ -1,3 +1,7 @@
+.navbar-title {
+  width: 350px;
+}
+
 .nav-item {
   cursor: pointer;
 }
@@ -9,6 +13,16 @@
 
 .navbar-brand {
   @include heading-font;
+  width: 100%;
+  display: block;
+  line-height: 2rem;
+}
+
+.navbar-text {
+  display: block;
+  width: 100%;
+  line-height: 1rem;
+  padding-top: 0.25rem;
 }
 
 nav[nav-type="expanded"] {

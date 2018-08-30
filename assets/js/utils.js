@@ -1,14 +1,25 @@
+function convertRemToPixels(rem) {    
+    return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+}
+
 $(window).scroll(function() {
 
-    var nav = $("nav"); // Cache as variable
+    var nav = $("nav");
+    var navText = $(".navbar-text"); 
+    var navTextContainer = $(".navbar-text-container");
+    var scroll = $(window).scrollTop();
+    var maxHeight = convertRemToPixels(1.75);
 
-    if ( $(window).scrollTop() > 0 && nav.attr("nav-type") == "expanded" ) {
-        $(".navbar-text").fadeOut(500);
-        nav.attr("nav-type", "mini");
+    if (scroll <= maxHeight) {
+        navTextContainer.height(maxHeight - scroll); // sets the height of the container
+    } else if (navTextContainer.height() != 0) {
+        navTextContainer.height(0);
+    }
+    
+    if (scroll == 0) {
+        navText.fadeIn(200);
+    } else if (navText.is(":visible")) {
+        navText.fadeOut(200);
     }
 
-    else if ( $(window).scrollTop() == 0 && nav.attr("nav-type") == "mini" ) {
-        nav.attr("nav-type", "expanded");
-        $(".navbar-text").fadeIn(500);
-    }
 })
