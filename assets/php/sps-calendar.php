@@ -14,6 +14,7 @@ $HOURS_BEFORE_REFRESH = 12;
 // Scrape function declaration
 function scrape_calendar() {
     // Scrape calendar page
+    // NOTE: This script was built for a {{ jekyll.environment }} environment
     $content = file_get_contents('https://calendar.google.com/calendar/embed?src=nabeelsherazi97%40gmail.com&ctz=America%2FNew_York');
     // Set base URL so relative references to stylesheets, scripts, etc. are preserved
     $content = str_replace('</title>','</title><base href="https://www.google.com/calendar/" />', $content);
