@@ -4,14 +4,14 @@ Website designed for the Northeastern SPS using Jekyll.
 
 ## Build Instructions
 
-First, you will need to be in an environment with [Ruby](https://ruby-lang.org) available, which will also give you `gem`, its default package manager. For the auto-prefixer plugin we use with Jekyll, you will also need to have [NodeJS](https://nodejs.org) available, although you can eliminate this dependency by not using autoprefixer (comment out the line containting `gem "jekyll-autoprefixer"` in Gemfile and `jekyll-autoprefixer` in _config.yml).
+First, you will need to be in an environment with [Ruby](https://ruby-lang.org) available, which will also give you `gem`, its default package manager. For the auto-prefixer plugin we use with Jekyll, you will also need to have [NodeJS](https://nodejs.org) available, although you can eliminate this dependency by not using autoprefixer (comment out the line containting `gem "jekyll-autoprefixer"` in Gemfile and `jekyll-autoprefixer` in \_config.yml).
 
 In order to build the website, you need to install [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io) on your machine (`gem install bundler jekyll`).
 
-Clone this repo, run `bundle install`, and then run `bundle exec jekyll server` to preview the 
+Clone this repo, run `bundle install`, and then run `bundle exec jekyll server` to preview the
 website at http://localhost:4444/sps/.
 
-In order to generate a full HTML website from these files, run `jekyll build`. This generates HTML and CSS to be published onto a web server in the _site directory. When building for final deployment, run `jekyll build JEKYLL_ENV='production'` to build for a production environment. This will add a few extra things to the generated code which we would only want in final production (Google Analytics, CSS autoprefixing, etc.). The contents of the _site directory can now be copied onto the SPS web server for deployment.
+In order to generate a full HTML website from these files, run `jekyll build`. This generates HTML and CSS to be published onto a web server in the \_site directory. When building for final deployment, run `JEKYLL_ENV='production' bundle exec jekyll build` on \*nix systems, or `$env:JEKYLL_ENV = 'production'; bundle exec jekyll build` on Windows (specifically PowerShell) to build for a production environment. This will add a few extra things to the generated code which we would only want in final production (Google Analytics, CSS autoprefixing, etc.). The contents of the \_site directory can now be copied onto the SPS web server for deployment.
 
 ## Deployment
 
@@ -19,13 +19,13 @@ We recommend pushing the final build of the site to server using `rsync` in a ba
 
 ## About
 
-The site is primarly built on Jekyll, a static site generating framework that uses the Liquid templating engine. Page structure is handled with the Bootstrap grid system, and styling is written in Sass SCSS (which Jekyll processes automatically). Some icons are powered by FontAwesome.
+The site is primarily built on Jekyll, a static site generating framework that uses the Liquid templating engine. Page structure is handled with the Bootstrap grid system, and styling is written in Sass SCSS (which Jekyll processes automatically). Some icons are powered by FontAwesome.
 
 ## Editing
 
 The primary contents of the website can be found in the pages directory (ex. index.md, org.md, res-gre.md, ...) as Markdown files. New pages (either HTML (.html) or Markdown (.md)) can be added into the pages directory and they will be added to the navigation automatically. Make sure you specify the front matter of each page (between the triple dashes) so that Jekyll can see the file and sort it correctly. Certain tags (e.g. "resources") will also sort the page automatically in site navigation (for example, into a dropdown menu).
 
-The E-Board page is driven by data stored in `/_data/eboard.yml` and is extremely readable. Simply editing this file will automatically restructure the Meet Our Eboard page to change information, add new members, add new positions, and more. Other auto-generated sections (e.g. people and places) are driven similarly and can also be edited in this way.
+The E-Board page is driven by data stored in `/_data/eboard.yml` and is extremely readable. Simply editing this file will automatically restructure the Meet Our E-Board page to change information, add new members, add new positions, and more. Other auto-generated sections (e.g. people and places) are driven similarly and can also be edited in this way.
 
 ## Structure
 
