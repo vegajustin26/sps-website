@@ -3,17 +3,35 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
-  <!-- Bootstrap CSS -->
-  <!-- <link
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-    crossorigin="anonymous" /> -->
-    
-  <link rel="stylesheet" href="{{ "/assets/css/bootstrap.css" | relative_url }}">
-  <!-- Custom overrides -->
-  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+  <!-- Bootstrap CSS (slightly tweaked - at the moment we cannot CDN) -->
+  <link rel="stylesheet" href="{{ "/assets/css/bootstrap.css" | relative_url }}" media="screen" type="text/css">
+
+  <!-- Sitewide Bootstrap overrides -->
+  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}" media="screen" type="text/css">
+
+  <!-- JQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <!-- Page specific dynamic scripts and CSS-->
+  {% if page.custom_css %}
+    {% for stylesheet in page.custom_css %}
+      <link rel="stylesheet" href="{{ stylesheet | prepend: "/assets/css/" | append: ".css" | relative_url }}" media="screen" type="text/css">
+    {% endfor %}
+  {% endif %}
+
+  {% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+      <script src="{{ js_file | prepend: "/assets/js/" | append: ".js" | relative_url }}" type="text/javascript"></script>
+    {% endfor %}
+  {% endif %}
+
+  <!-- Jekyll feed meta tags-->
   {%- feed_meta -%}
+
+  <!-- Google analytics-->
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
