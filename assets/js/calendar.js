@@ -1,7 +1,9 @@
 $(function() {
-    $('span').remove();
-    $('.subscribe-image').remove();
-    $('.today-button').addClass('btn btn-xl btn-primary');
-    console.log(document.head.querySelector("meta").getAttribute('scrape-date'));
-    window.isReady = true;
-});
+    $('#calendar').fullCalendar({
+      googleCalendarApiKey: 'AIzaSyCvucrP09Ll5JczHsqlmggxPLkAeneaMR0',
+      events: {
+        googleCalendarId: 'spsnortheastern@gmail.com',
+        className: 'gcal-event' // an option!
+      }
+    });
+  });

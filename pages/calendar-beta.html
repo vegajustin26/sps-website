@@ -1,30 +1,16 @@
 ---
 layout: default
 permalink: /calendar-beta/
+custom_css:
+    - fullcalendar
+custom_js:
+    - moment.min
+    - fullcalendar.min
+    - gcal.min
+    - calendar
 ---
 <div class="row text-center">
     <h4 class="h-4">SPS Calendar</h4>
 </div>
-<div class="row mx-auto text-center pt-4">
-    <iframe src="../assets/php/sps-calendar.php" class="cal cal-placeload mx-auto"></iframe>
-</div>
 
-<!-- <script src="../assets/js/placeload.min.js"></script>
-<script>
-    const user = Placeload
-              .$('.cal-placeload')
-              .config({ speed: '2s' })
-              .line((element) => element.width(100).height(200))
-              .config({ spaceBetween: '10px' })
-              .line((element) => element.width(100).height(20))
-              .config({ spaceBetween: '10px' })
-              .line((element) => element.width(50).height(20))
-              .fold(
-                (err) => console.log('error: ', err),
-                (allElements) => console.log('allElements: ', allElements)
-              )
-            // simulation API
-            setTimeout(() => {
-                user.remove()
-            }, 2000)
-</script> -->
+<div id="calendar"></div>
