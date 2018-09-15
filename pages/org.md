@@ -2,6 +2,8 @@
 layout: directory
 title: Meet our E-Board!
 permalink: /org/
+custom_css:
+    - cards
 ---
 
 # Executive Board

@@ -2,6 +2,8 @@
 layout: post
 title:  "Getting a Research Position with a Professor"
 date:   2018-08-29 01:07:50 -0400
+custom_css:
+    - letter
 ---
 
 First of all, don't stress if you're reading this as not-a-freshman-anymore, and worrying that it's too late for you to work in a lab on campus. There are plenty of people that take on their first undergraduate positions in their sophomore, middler, and even junior years. This doesn't mean that you shouldn't start looking into it as early as possible of course, but hope is not lost.

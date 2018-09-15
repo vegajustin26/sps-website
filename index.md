@@ -3,6 +3,8 @@ layout: featured
 featured-img: /assets/img/background.jpg
 featured-header: Society of Physics Students
 featured-subheader: Meetings on Wednesdays at Noon in 206 Egan
+custom_css:
+    - featured-header
 ---
 # About
 
