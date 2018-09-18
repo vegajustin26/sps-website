@@ -13,6 +13,7 @@
 
 .navbar-brand {
   @include heading-font;
+  font-size: calc(4vw + 4vh + 2vmin);
   width: 100%;
   display: block;
   line-height: 2rem;
@@ -21,6 +22,7 @@
 .navbar-text {
   display: block;
   width: 100%;
+  font-size: calc(2vw + 2vh + 1vmin);
   line-height: 1rem;
   padding-top: 0.25rem;
 }
