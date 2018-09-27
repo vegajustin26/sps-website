@@ -1,0 +1,24 @@
+- position: Research Assistant
+  type: Undergraduate
+  lab_name: Barabasi Lab
+  professor: Prof. Barabasi
+  field: Complex Networks / Graph Theory
+  description: Lorem ipsum
+  num_openings: 2
+
+- position: Research Assistant
+  type: Undergraduate
+  lab_name: DK Lab
+  professor: Prof. Kriokov
+  field: Complex Networks / Graph Theory
+  description: Lorem ipsum
+  num_openings: 1
+
+- position: Research Assistant
+  type: Postdoctorate
+  lab_name: Kar Lab
+  professor: Prof. Kar
+  field: Crystals, metamaterials
+  description: Lorem ipsum
+  num_openings: 2
+  

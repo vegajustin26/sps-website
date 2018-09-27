@@ -1,0 +1,21 @@
+---
+layout: default
+title: Research Openings
+permalink: /research-openings/
+custom_css:
+    - cards
+---
+
+<div class="row">
+  <div class="row" style="display:flex; justify-content: space-around;">
+      {%- for posting in site.data.jobs -%}
+        <div class="col-sm-4 col-offset-4 card px-3 m-3">
+          <h5 class="text-center">{{ posting.position | escape }} ({{ posting.type | escape }})</h5>
+          <h4 class="lead text-center">{{ posting.lab_name | titlecase | escape }} | {{ posting.field | escape }}</h4>
+          <p class="text-justify px-3">{{ posting.professor | escape }}</p>
+          <hr />
+          <span class="text-center mb-3"><a href="mailto:{{ role.email }}"><i class="fas fa-envelope"></i> : {{ role.email }}</a></span>
+        </div>
+      {%- endfor -%}
+  </div>
+</div>
