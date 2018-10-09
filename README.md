@@ -15,7 +15,7 @@ In order to generate a full HTML website from these files, run `jekyll build`. T
 
 ## Deployment
 
-We recommend pushing the final build of the site to server using `rsync` in a bash shell. To do this, open bash in the sps-website directory after building, and first do a dry-run by running `rsync -anv _site/ sps@nuweb50.northeastern.edu:.`. **Note that the trailing colon and period after "edu" is important.** Bash will prompt you to authenticate, and then show you which files will be moved, and where, without actually doing anything. Ensure that this is correct before rerunning the command with the flag `-av` instead to actually push files.
+We recommend pushing the final build of the site to server using `rsync` in a bash shell. To do this, open bash in the sps-website directory after building, and first do a dry-run by running `rsync -anv _site/ sps@nuweb50.neu.edu:.`. **Note that the trailing colon and period after "edu" is important.** Bash will prompt you to authenticate, and then show you which files will be moved, and where, without actually doing anything. Ensure that this is correct before rerunning the command with the flag `-av` instead to actually push files.
 
 ## About
 
