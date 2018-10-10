@@ -1,9 +1,7 @@
 <ul class="list-inline mt-3">
-  <div class="row">
-    <div class="col-sm-6 offset-sm-3">
-      {%- if site.facebook_username -%}<li class="list-inline-item mx-3"><a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"><i class="fab fa-facebook-square fa-2x mr-2" style="vertical-align: middle"></i><span class="username">{{ site.facebook_username| escape }}</span></a></li>{%- endif -%}
-      {%- if site.instagram_username -%}<li class="list-inline-item mx-3"><a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"><i class="fab fa-instagram fa-2x mr-2" style="vertical-align: middle"></i><span class="username">{{ site.instagram_username| escape }}</span></a></li>{%- endif -%}
-      {%- if site.twitter_username -%}<li class="list-inline-item mx-3"><a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><i class="fab fa-twitter fa-2x mr-2" style="vertical-align: middle"></i><span class="username">{{ site.twitter_username| escape }}</span></a></li>{%- endif -%}
-    </div>
+  <div class="mx-auto">
+    {%- if site.facebook_username -%}<li class="list-inline-item mx-3"><a href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}"><i class="fab fa-facebook-square fa-2x mr-2" style="vertical-align: middle"></i><span class="username">{{ site.facebook_username| escape }}</span></a></li>{%- endif -%}
+    {%- if site.instagram_username -%}<li class="list-inline-item mx-3"><a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"><i class="fab fa-instagram fa-2x mr-2" style="vertical-align: middle"></i><span class="username">{{ site.instagram_username| escape }}</span></a></li>{%- endif -%}
+    {%- if site.twitter_username -%}<li class="list-inline-item mx-3"><a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><i class="fab fa-twitter fa-2x mr-2" style="vertical-align: middle"></i><span class="username">{{ site.twitter_username| escape }}</span></a></li>{%- endif -%}
   </div>
-  </ul>
+</ul>
