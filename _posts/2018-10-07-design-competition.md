@@ -29,6 +29,6 @@ All other submissions will receive:
 - Not a physics major? Ask a physics friend for some cute ideas on incorporating physics equations or designs into your work.
 - Not a digital designer, but can sketch a cool idea? Email sherazi.n@husky.neu.edu for further guidance.
 
-<a class="btn btn-primary btn-xl text-center d-inline" href="/assets/static/SPS_design_template.psd" download="SPS_design_template.psd">Download the template as a PSD</a>
+<a class="btn btn-primary btn-xl text-center d-inline" href="{{ "/assets/static/SPS_design_template.psd" | relative_url }}" download="SPS_design_template">Download the template as a PSD</a>
 
-<a class="btn btn-primary btn-xl text-center d-inline" href="/assets/static/SPS_design_template.pdf" download="SPS_design_template.pdf">Download the template as a PDF</a>
+<a class="btn btn-primary btn-xl text-center d-inline" href="{{ "/assets/static/SPS_design_template.pdf" | relative_url }}" download="SPS_design_template">Download the template as a PDF</a>
