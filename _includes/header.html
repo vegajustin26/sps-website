@@ -25,6 +25,10 @@
             <!-- skip all pages tagged resources for now -->
             {%- continue -%}
           {%- endif -%}
+          {%- if my_page.tags contains "talks" -%}
+            <!-- skip all pages tagged coop-talks for now -->
+            {%- continue -%}
+          {%- endif -%}
           {%- if my_page.title -%}
             {%- if my_page.title == page.title -%}
             <li class="nav-item active">
@@ -49,6 +53,18 @@
               <a class="dropdown-item" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
               {%- endif -%}
               {%- endfor -%}
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle underline" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Co-op Talks</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.tags contains "talks" -%}
+              <a class="dropdown-item" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              {%- endif -%}
+              {%- endfor -%}
+              <a class="dropdown-item" href="https://calendly.com/spsnortheastern/cooptalk" target="_blank">Schedule a Co-op Talk!</a>
             </div>
           </li>
         </ul>
