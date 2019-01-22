@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Past Co-op Talks
-permalink: /talks/past
+permalink: /talks/past/
 tags: talks
 ---
 

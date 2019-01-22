@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Co-op Talk Guidelines
-permalink: /talks/guidelines
+permalink: /talks/guidelines/
 tags: talks
 ---
 
