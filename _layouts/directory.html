@@ -8,7 +8,7 @@ layout: default
 </div>
 <div class="row" style="display:flex; justify-content: space-around;">
     {%- for role in site.data.eboard -%}
-      <div class="col-lg-3 card px-3 m-3">
+      <div class="col-lg-4 card px-3 m-3">
         <img class="img-fluid rounded-circle profile my-5 mx-auto"
           src="{{ 'assets/img/' | prepend: site.baseurl | append: role.photo }}" 
           alt="{{ role.name }}"/>

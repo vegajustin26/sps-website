@@ -1,32 +1,32 @@
 - position: President
   name: Thedita Pedersen
   email: pedersen.t@husky.neu.edu
-  bio: Thedita is a fourth year Physics and Theatre double major working on laser lithography with nanomaterials in Professor Kar's lab. She currently performs in a quantum physics play.
+  bio: Thedita is a fifth year Physics and Theatre double major, and has recently completed a co-op at Harvard Medical School. She will be performing in The Skin of our Teeth here at NU.
   photo: thedita.jpg
 
 - position: Vice President
-  name: Jameson O'Reilly
-  email: oreilly.j@husky.neu.edu
-  bio: Jameson is a fifth-year aspiring AMO physicist and quantum computing researcher who likes writing simulations and popular articles about new breakthroughs in all subfields.
-  photo: jameson.png
+  name: Jennifer Garland
+  email: garland.je@husky.neu.edu
+  bio: Jennifer is a fourth year applied physics major interested in quantum materials, renewable energy, and nanotechnology. She plans to pursue condensed matter or materials science.
+  photo: jennifer.jpg
 
 - position: Secretary
-  name: Nabeel Sherazi
-  email: sherazi.n@husky.neu.edu
-  bio: Nabeel is a fourth-year Applied Physics major, primarily interested in control theory and computer vision. He also dabbles in programming, visual design, and venture capital.
-  photo: nabeel.jpg
+  name: Lia DeCoursey
+  email: decoursey.a@husky.neu.edu
+  bio: Lia is a third year physics major who wants to pursue biophysics or high energy physics after graduating. She plays French horn in the wind ensemble and orchestra in her free time.
+  photo: lia.jpg
 
 - position: Treasurer
-  name: Sydney Couval
-  email: couval.s@husky.neu.edu
-  bio: As a Physics major, Sydney is pursuing a career in quantum computation, and hopes to work abroad after finishing her undergraduate degree.
-  photo: sydney.jpg
+  name: Karthik Boyareddygari
+  email: boyareddygari.k@husky.neu.edu
+  bio: Karthik is a 3rd year math/physics double major and bassoon performance minor. His interests lie in algebra, algebraic topology, and mathematical physics.
+  photo: karthik.jpg
 
 - position: Mentorship Chair
-  name: Rose Silver
-  email: silver.r@husky.neu.edu
-  bio: Rose is a 2nd year Applied Physics/Math double major beginning her research in a nanophysics lab on campus. Outside of academia, she has a knack for singing and city exploration.
-  photo: rose.jpg
+  name: Lindsay Euston 
+  email: euston.l@husky.neu.edu
+  bio: Lindsay is a second year physics and mechanical engineering major. She is interested in space technology and is involved in SEDS on campus to pursue this.
+  photo: lindsay.jpg
 
 - position: Webmaster
   name: Joshua Towner

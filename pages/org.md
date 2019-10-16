@@ -8,4 +8,4 @@ custom_css:
 
 # Executive Board
 
-Get to know the SPS 2018-2019 E-board!
+Get to know the SPS 2019-2020 E-board!
