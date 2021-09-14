@@ -1,35 +1,35 @@
 - position: President
-  name: Thedita Pedersen
-  email: pedersen.t@husky.neu.edu
-  bio: Thedita is a fifth year Physics and Theatre double major, and has recently completed a co-op at Harvard Medical School. She will be performing in The Skin of our Teeth here at NU.
-  photo: thedita.jpg
+  name: Justin Vega
+  email: vega.ju@northeastern.edu
+  bio: Justin is a fourth year Physics and Philosophy major with minors in Music Recording and Mathematics. He is interested in astrophysics and high-energy physics research, and enjoys writing songs and trying out new recipes in his free time.
+  photo: Justin2.jpg
 
 - position: Vice President
-  name: Jennifer Garland
-  email: garland.je@husky.neu.edu
-  bio: Jennifer is a fourth year applied physics major interested in quantum materials, renewable energy, and nanotechnology. She plans to pursue condensed matter or materials science.
-  photo: jennifer.jpg
+  name: Anika Padin
+  email: padin.a@northeastern.edu
+  bio: As Vice President of SPS Anika is in charge of our meetings that aren’t co-op talks. Outside of SPS, she loves baking, traveling, and listening to new music. Anika is currently wrapping up a co-op as an electro-optical lab technician at E Ink in Billerica.
+  photo: anika2.jpeg
 
 - position: Secretary
-  name: Lia DeCoursey
-  email: decoursey.a@husky.neu.edu
-  bio: Lia is a third year physics major who wants to pursue biophysics or high energy physics after graduating. She plays French horn in the wind ensemble and orchestra in her free time.
-  photo: lia.jpg
+  name: Sarah Poole
+  email: poole.s@northeastern.edu
+  bio: Sarah is secretary of SPS this year! She lives in Boston and loves to explore the city on the weekends. She's also involved in theoretical physics research on campus, and she participates in the all-female a cappella group "Pitch, Please!" She also enjoys reading and attempting art.
+  photo: sarah.jpeg
 
 - position: Treasurer
-  name: Karthik Boyareddygari
-  email: boyareddygari.k@husky.neu.edu
-  bio: Karthik is a 3rd year math/physics double major and bassoon performance minor. His interests lie in algebra, algebraic topology, and mathematical physics.
-  photo: karthik.jpg
+  name: Michael Vaughan
+  email: vaughan.mi@northeastern.edu
+  bio: Michael is a rising senior currently interested in quantum physics and plasma physics. He just finished a co-op at the AFRL in Rome, NY on the super conducting qubit team in the quantum information science department. Outside of physics, he enjoys baking, cooking, mixology, movies, and sports.
+  photo: michael2.jpeg
 
 - position: Mentorship Chair
-  name: Lindsay Euston 
-  email: euston.l@husky.neu.edu
-  bio: Lindsay is a second year physics and mechanical engineering major. She is interested in space technology and is involved in SEDS on campus to pursue this.
-  photo: lindsay.jpg
+  name: Noah Haggerty 
+  email: haggerty.no@northeastern.edu
+  bio: Noah's academic interests are in plasma physics, astrophysics, and aerospace engineering. Beyond serving as the SPS mentorship chair, he is heavily involved in our student-run science magazine, NU Sci, and our aerospace club, AeroNU. Noah loves meeting new people and is always looking for fun places around Boston to explore.
+  photo: noah.jpg
 
 - position: Webmaster
-  name: Joshua Towner
-  email: towner.j@husky.neu.edu
-  bio: Joshua is a first year CS/Physics and Math major who is interested in learning about artificial intelligence and quantum computing.
-  photo: joshua.jpg
+  name: B. Parazin
+  email: parazin.b@northeastern.edu
+  bio: B. is a 3rd year physics and math double major. They are interested in geophysics and astrophysics. Beyond serving as SPS webmaster, they write articles for NU Sci, build sets for NUStage and pet their cat Mr. Kitty.
+  photo: B.jpg
